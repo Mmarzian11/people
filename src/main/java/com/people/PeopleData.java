@@ -51,3 +51,4 @@ public class PeopleData {
         thread.invokeLater(() -> object.setActive(false));
     }
 }
+

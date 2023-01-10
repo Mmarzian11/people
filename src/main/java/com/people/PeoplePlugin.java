@@ -75,3 +75,4 @@ public class PeoplePlugin extends Plugin
 		return configManager.getConfig(PeopleConfig.class);
 	}
 }
+

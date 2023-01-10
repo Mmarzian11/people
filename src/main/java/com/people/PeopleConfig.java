@@ -10,7 +10,7 @@ public interface PeopleConfig extends Config
 	@ConfigItem(
 			keyName = "spawnPerson",
 			name = "Spawn Person",
-			description = "Spawns a person then removes"
+			description = "Toggle to spawn a person"
 	)
 	default boolean spawnPerson() {return false;}
 }
